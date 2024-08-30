@@ -32,6 +32,30 @@
 * Classe de controller(controller) -> Possuem finalidade de disponibilizar uma conexão externa à nossa aplicação [http, web, webservicess]
 * Classe utilitária(util) -> Contém recursos comuns à toda nossa aplicação
 
+## Pacotes 
+-> O mecanismo de Pacotes é uma forma de organização do projeto -> Sendo composto por diversas categorias de classes com finalidades diferentes o empacotamento é uma forma de deixar todas essas classes em um único nível de documentos -> Os Pacotes são subdiretórios a partir da pasta SRC do nosso projeto onde estão localizadas as classes da linguagem e novas que forem criadas para o projeto. Existem algumas convenções para criação de pacotes já utilizados no mercado : 
+* Nomenclatura
+  --> Comercial : com.powersoft
+  --> Governamental : gov.powersoft
+  --> Código aberto : org.powersoft
+  --
+  
+* Organização das classes mediante a proposta de sua existencia
+  --> Model : Classes que representam a camada e modelo da aplicação ( Cliente, Pedido, NotaFiscal, Usuario )
+  --> Repository : Classes ou interfaces que possuem a finalidade de interagir com tabelas do banco de dados
+  --> Service  : Classes que contém regras de negócio do sistema ( ClienteService possui o método para validar o CPF do cliente cadastrado )
+  --> Controller : Classes que possuem a finalidade de disponibilizar os nossos recursos da aplicação para outras aplicações via padrão HTTP
+  --> View : Classes que possuem alguma interação com interfaces gráficas acessadas pelo usuário
+  -- Util : Pacote que contém classes utilitárias do sistema ( FormatadorNumeroUtil, ValidadorUtil ).
+  --
+
+##### OBS :
+-> Quando uma classe é organizada por pacotes, ela passa a ter duas identificações. O nome simples [proprio nome] e o nome qualificado [endereçamento do pacote + nome],  exemplo: Classe Usuario dentro do pacote `com.controle.acesso.model.Usuario` tem o nome qualificado de `com.controle.acesso.model.Usuario`
+* a
+* a
+* a
+* a
+
 
 
 
