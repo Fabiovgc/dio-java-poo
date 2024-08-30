@@ -38,7 +38,7 @@
   --> Comercial : com.powersoft
   --> Governamental : gov.powersoft
   --> Código aberto : org.powersoft
-  --
+
   
 * Organização das classes mediante a proposta de sua existencia
   --> Model : Classes que representam a camada e modelo da aplicação ( Cliente, Pedido, NotaFiscal, Usuario )
@@ -47,7 +47,7 @@
   --> Controller : Classes que possuem a finalidade de disponibilizar os nossos recursos da aplicação para outras aplicações via padrão HTTP
   --> View : Classes que possuem alguma interação com interfaces gráficas acessadas pelo usuário
   -- Util : Pacote que contém classes utilitárias do sistema ( FormatadorNumeroUtil, ValidadorUtil ).
-  --
+
 
 ##### OBS :
 -> Quando uma classe é organizada por pacotes, ela passa a ter duas identificações. O nome simples [proprio nome] e o nome qualificado [endereçamento do pacote + nome],  exemplo: Classe Usuario dentro do pacote `com.controle.acesso.model.Usuario` tem o nome qualificado de `com.controle.acesso.model.Usuario`
