@@ -50,7 +50,7 @@
  
 
 ##### OBS :
--> Quando uma classe é organizada por pacotes, ela passa a ter duas identificações. O nome simples [proprio nome] e o nome qualificado [endereçamento do pacote + nome],  exemplo: Classe Usuario dentro do pacote `com.controle.acesso.model.Usuario` tem o nome qualificado de `com.controle.acesso.model.Usuario`
+-> Quando uma classe é organizada por pacotes, ela passa a ter duas identificações. O nome simples [proprio nome] e o nome qualificado [endereçamento do pacote + nome],  exemplo: Classe Usuario dentro do pacote `com.controle.acesso.model` tem o nome qualificado de `com.controle.acesso.model.Usuario`
 * a
 * a
 * a
