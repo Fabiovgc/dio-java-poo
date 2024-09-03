@@ -12,10 +12,10 @@
 -> Implementamos algoritmos com estruturas sequenciais [procedimentos lineares] -> afetando valor de variaveis de escopo local ou global em uma aplicação
 
 ### Orientação a Objetos
--> baseado no conceito de "objetos", que possuem atributos, e codigos, na forma de procedimentos [metodos].
+> baseado no conceito de "objetos", que possuem atributos, e codigos, na forma de procedimentos [metodos].
 
 ## Classes
--> Toda a estrutura de codigo em Java é distribuido em arquivos `.java` denominados de [classes]
+> Toda a estrutura de codigo em Java é distribuido em arquivos `.java` denominados de [classes]
 
 ### As classes são compostas por : 
 ##### Identificador, Características, Comportamentos
@@ -33,7 +33,8 @@
 * Classe utilitária(util) -> Contém recursos comuns à toda nossa aplicação
 
 ## Pacotes 
--> O mecanismo de Pacotes é uma forma de organização do projeto -> Sendo composto por diversas categorias de classes com finalidades diferentes o empacotamento é uma forma de deixar todas essas classes em um único nível de documentos -> Os Pacotes são subdiretórios a partir da pasta SRC do nosso projeto onde estão localizadas as classes da linguagem e novas que forem criadas para o projeto. Existem algumas convenções para criação de pacotes já utilizados no mercado : 
+> O mecanismo de Pacotes é uma forma de organização do projeto -> Sendo composto por diversas categorias de classes com finalidades diferentes o empacotamento é uma forma de deixar todas essas classes em um único nível de documentos
+> Os Pacotes são subdiretórios a partir da pasta SRC do nosso projeto onde estão localizadas as classes da linguagem e novas que forem criadas para o projeto. Existem algumas convenções para criação de pacotes já utilizados no mercado : 
 * Nomenclatura
   * Comercial : com.powersoft
   * Governamental : gov.powersoft
@@ -50,26 +51,25 @@
  
 
 ##### OBS :
--> Quando uma classe é organizada por pacotes, ela passa a ter duas identificações. O nome simples [proprio nome] e o nome qualificado [endereçamento do pacote + nome],  exemplo: Classe Usuario dentro do pacote `com.controle.acesso.model` tem o nome qualificado de `com.controle.acesso.model.Usuario`
+> Quando uma classe é organizada por pacotes, ela passa a ter duas identificações. O nome simples [proprio nome] e o nome qualificado [endereçamento do pacote + nome],  exemplo: Classe Usuario dentro do pacote `com.controle.acesso.model` tem o nome qualificado de `com.controle.acesso.model.Usuario`
 
 ### Package versu Import
--> Para a utilização de uma classe existente em outros pacotes, necessitamos realizar a importação das mesmas.
+> Para a utilização de uma classe existente em outros pacotes, necessitamos realizar a importação das mesmas.
 
 ## Visibilidade dos recursos
--> Em Java, utilizamos três palavbtras reservadas e um conceito default ( sem palavra reservada ) para definir os quatro tipos de visibilidade de atributos, métodos e até mesmo classes, no que se refere ao acesso por outras classes.
+> Em Java, utilizamos três palavbtras reservadas e um conceito default ( sem palavra reservada ) para definir os quatro tipos de visibilidade de atributos, métodos e até mesmo classes, no que se refere ao acesso por outras classes.
 
 * Modificador de acesso `public`
-  * Qualquer outra classe em qualquer outro pacote pode visualizar tais recursos.
+  > Qualquer outra classe em qualquer outro pacote pode visualizar tais recursos.
 * Modificador de acesso `default`
-  * algumas implementações não precisam estar disponíveis para todo o projeto, e este modificdor de acesso restringe a visibilidade por pacotes.
+  > algumas implementações não precisam estar disponíveis para todo o projeto, e este modificdor de acesso restringe a visibilidade por pacotes.
 * Modificador de acesso `private`
-  * Este modificdor de acesso restringe a visibilidade por classes.
+  >Este modificdor de acesso restringe a visibilidade por classes.
 
 ## Getters e Setters
 ##### Seguindo a convenção de Java Beans
-> os metodos Getters e Setters são utilizados para buscar valores de atributos ou definir novos valores e atributos de instâncias de classes.
->
-> 
+> os metodos Getters e Setters são utilizados para buscar valores de atributos ou definir novos valores e atributos de instâncias de classes. 
 
-
-
+### Getter
+> O metodo Getter retorna o valor do atribut especificado.
+> O metodo Setter define outro novo valor para o atributo especificado.
