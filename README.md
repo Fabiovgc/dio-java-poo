@@ -76,14 +76,18 @@
 > Ex: `public String getNome() {}`
 ### Setter
 > O metodo Set é responsável por definir ou moficicar o valor de um atributo em um objeto
+
 > Precisa ser public, receber um parâmetro do mesmo tipo da variável mas não retorna nenhum valor (void).
+
 > Ex: `oublic void setNome(String newNome) {}`
 
 
 ## Contrutores 
 > Muitas vezes, na instanciação de um objeto, a linguagem solicite para quem for criar que defina algumas propriedades essenciais.
 > O metodo construtor deve receber um nome identico ao nome da classe
-> Ex: `public Pessoa (String atributo1, String atributo2){
+
+> Ex:
+> `public Pessoa (String atributo1, String atributo2){
 this.cpf = cpf ;
 this.atrinuto1 = atributo1;
 this.atributo2 = atributo2
