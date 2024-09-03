@@ -88,15 +88,66 @@
 
 > Ex:
 > `public Pessoa (String atributo1, String atributo2){
-this.cpf = cpf ;
 this.atrinuto1 = atributo1;
 this.atributo2 = atributo2
 }`
-> 
+
+## Enums
+> É um tipo especial de classe onde os objetos são préviamente criados, imutáveis e disponíveis por toda aplicação.
+
+> Usamos Enum quando nosso modelo de negócio contém leque de objetos de mesmo contexto préviamente estruturados com a certeza de não haver grande alteração de valores.
+
+> Conjunto de objetos préestabelecidos na aplicação
+
+> Como enum é um conjunto de objetos, esses objetos podem ter metodos e atributos
+
+## UML
+##### Linguagem de Modelagem Unificada
+> É uma notação que possibilita a representação gráfica do projeto.
+
+> 3 conceitos necessários :
+* diagramas
+* elementos
+* relacionamentos
+
+> As notações UML são distribuídas em duas categorias de diagramas, a estrutural e comportamental :
+
+### Diagramas estruturais
+* Diagrama de classe
+  > Utilizado para fazer a representação de estruturas de classes de negócio, interfaces e outros componentes do sistema.
+
+  > Este é considerado o mais importante para a UML, pois auxilia a maioria dos demais diagramas.  
+* Diagrama de objeto
+  > Representa os objetos existentes em um determinado instante ou fato na aplicação.
+  
+  > Assim podemos ter uma perspectiva do estado de nossos objetos mediante a interaçãodo usua+ários do sistema.
+
+##### Em diagrama, a estrutura das classes é constituída por : 
+* Identificação : Nome e / ou finalidade da classe 
+* Atributos : Propriedades e / ou características
+* Operações : Ações e / ou métodos
 
 
+### Relacionamentos
+> Em alguma etapa da palicação, haverá necessidade das classes se relacionarem e devemos compreender o níve de dependencia entre elas.
 
+* Associação : Define um relacionamento entre duas classes, permitindo que um objeto tenha acesso a estrutura de um outro objeto.
+  * Associação simples : Navegação de A para B (Um cliente tem uma profissão) 
+  * Associação Bidirecional : As duas classes precisam se enxergar
+  * Agregação : A classe principal tem relação com a outra, mas esta pode existir sem a classe agregadora. Ex: Uma profissão para um candidato. Não é obrigado que o candidato possua.
+  * Composição : Caracteriza uma dependência existêncial entre a classe principal e a associada. Ex: Uma admissão só pode existir contendo suas informações bássicas e a composição do candidato selecionado. A admissão não pode existir sem um candidato.
 
+##### Multiplicidade : 
+> nem sempre o relacionamento entre as classes será de um para um.
+* 1. -> Representa uma associação contendo um elemento
+* *. -> Representa uma associação contendo uma lista de elementos
+* 0..1 -> Representa uma associação contendo 0 ou 1 elemento
+* 0..* -> Representa uma associação contendo 0 ou uma lista de elementos
+* 1..* -> Representa uma associação contendo 1 ou uma lista de elementos
 
-
+### Visibilidade
+> Os atributos de uma classe podem receber níveis de visibilifafe representados por símbolos :
+* (+) Visibilidade pública
+* (#) Visibilidade protegida (muito associada com herança)
+* (-) Visibilidade privada
 
