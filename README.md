@@ -59,15 +59,17 @@
 -> Em Java, utilizamos três palavbtras reservadas e um conceito default ( sem palavra reservada ) para definir os quatro tipos de visibilidade de atributos, métodos e até mesmo classes, no que se refere ao acesso por outras classes.
 
 * Modificador de acesso `public`
-  * a
-* a
-  * a
-* a
-  * a
-* a
-  * a
+  * Qualquer outra classe em qualquer outro pacote pode visualizar tais recursos.
+* Modificador de acesso `default`
+  * algumas implementações não precisam estar disponíveis para todo o projeto, e este modificdor de acesso restringe a visibilidade por pacotes.
+* Modificador de acesso `private`
+  * Este modificdor de acesso restringe a visibilidade por classes.
 
-
+## Getters e Setters
+##### Seguindo a convenção de Java Beans
+> os metodos Getters e Setters são utilizados para buscar valores de atributos ou definir novos valores e atributos de instâncias de classes.
+>
+> 
 
 
 
