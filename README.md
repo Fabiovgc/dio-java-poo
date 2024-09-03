@@ -51,7 +51,15 @@
 
 ##### OBS :
 -> Quando uma classe é organizada por pacotes, ela passa a ter duas identificações. O nome simples [proprio nome] e o nome qualificado [endereçamento do pacote + nome],  exemplo: Classe Usuario dentro do pacote `com.controle.acesso.model` tem o nome qualificado de `com.controle.acesso.model.Usuario`
-* a
+
+### Package versu Import
+-> Para a utilização de uma classe existente em outros pacotes, necessitamos realizar a importação das mesmas.
+
+## Visibilidade dos recursos
+-> Em Java, utilizamos três palavbtras reservadas e um conceito default ( sem palavra reservada ) para definir os quatro tipos de visibilidade de atributos, métodos e até mesmo classes, no que se refere ao acesso por outras classes.
+
+* Modificador de acesso `public`
+  * 
 * a
 * a
 * a
