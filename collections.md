@@ -23,12 +23,7 @@
 
 > Usando Tipos Genericos em uma `public class Box{}` usamos `public class Box<T>{}` onde `<T>` representa " Type "
 
-`/**
-Versão genérica da classe Box.
-@param <T> o tipo do valor sendo armazenado
-*/
-public class Box<T> {
-	// T representa "Type" (tipo)
+`public class Box<T> {
     private T t;
 
     public void set(T t) { this.t = t; }
