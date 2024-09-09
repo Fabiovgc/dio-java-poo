@@ -72,7 +72,21 @@
 ##### Vector:
 > Implementação antiga da interface `List` que se assemelha ao `Arraylist`, mas é sincronizada, ou seja é thread-safe. Isso significa que várias threads podem manipular um objeto Vectorao mesmmo tempo sem causar problemas de ocorrência. No entanto essa sincronização adiciona uma sobrecarga de desempenho, tornando o vector menos eficiênte que o `ArrayList` em cenários que desempenho não é um problema.
 
+## Set
+> A interface `Set` é uma coleção que não aceita itens duplicados
 
+> Essa interface representa o conceito matemático de um conjunto e é usada para representar conjuntos, como um baralho de cartas;
 
+> A plataforma Java possui três implementações de `Set` de uso geral: `HashSet`, `TreeSet` e `LinkedSet`.
 
+> A interface `Set` não permite acesso aleatório a um elemento na coleção.
+
+> Para percorrer os elementos de um `Set`, você pode usar um loop foreach.
+
+##### HashSet: 
+> O HashSet é um implementação da interface `Set` que armazena os elementos em uma tabela hash. Ele não mantém uma ordem específica dos elemetos. A principal vantagem do `HashSet` é que ele oferece um desempenho de busca muito eficiente, pois usa funções hashpara indexar os elementos. No entanto, a ordem em que os elementos são adicionados pode não ser preservada ao percorrer o conjunto 
+##### TreeSet: 
+> O TreeSet é uma implementação da interface `Set` que armazena os elementos em uma ´arvore binárea´ balanceada. Isso significa que os elementos são armazenados em uma ordem classificada e são mantidos automaticamente em ordem crescente. A principal vantagem do `TreeSet` é que os elementos são sempre retornados na ordem classificada, o que facilita a obtenção de elementos em uma determinada ordem. No entanto a busca e a inserção são mais lentas do que no `HashSet`
+##### LinkedSet: 
+> O `LinkedHashSet` é uma implementação da interface `Set` que mantém a ordem de inserção dos elementos, além de usar uma tabela Hash para aobter um bom desempemnho de busca. Ela é semelhante ao `HashSet` mas também mantém uma lista duplamente vinculada que preserva a ordem de inserção. Isso permite que os elementos sejam percorridos na ordem em que foram adicionados. O `LinkedHashSet` é util quando você precisa manter a ordem de inserção dos elementos e também ter um bom desempenho de busca.
 
