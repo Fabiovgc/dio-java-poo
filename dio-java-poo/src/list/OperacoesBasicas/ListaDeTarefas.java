@@ -16,6 +16,7 @@ public class ListaDeTarefas {
         listaDeTarefas.adicionarTarefa("Tarefa5");
         listaDeTarefas.adicionarTarefa("Tarefa5");
         listaDeTarefas.adicionarTarefa("Tarefa6");
+        System.out.println("O numero total de tarefas é: " + listaDeTarefas.obterNumeroTotalDeTarefas());
 
         
         listaDeTarefas.removerTarefa("tarefa1");
@@ -45,7 +46,7 @@ public class ListaDeTarefas {
     public void removerTarefa(String descricao){
         List<Tarefa> tarefasParaRemover = new ArrayList<>();
         for(Tarefa trf: tarefaList){
-            if(trf.getDescricao().equals(descricao)){
+            if(trf.getDescricao().equalsIgnoreCase(descricao)){
                 tarefasParaRemover.add(trf);
             }
         }
