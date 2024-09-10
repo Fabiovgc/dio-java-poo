@@ -8,10 +8,10 @@
 > O nícleo principal das coleções é formado por interfaces que permitem manipular a coleção independente do nível de detalhes que elas representam.
 
 > 4 grandes tipos de coleções :
-*1. `List` (Lista)
-*2. `Set` (Conjunto)
-*3. `Queue` (Fila)
-*4. `Map` (Mapa)
+ * 1. `List` (Lista)
+ * 2. `Set` (Conjunto)
+ * 3. `Queue` (Fila)
+ * 4. `Map` (Mapa)
 > Embora a interface `Map` não seja filha direta da interface `Collection` ela também é considerada uma coleção devido à sua função
 
 > TODAS as interfaces e classes são encontradas dentro do pacote [package] `java.util` 
