@@ -90,3 +90,33 @@
 ##### LinkedSet: 
 > O `LinkedHashSet` é uma implementação da interface `Set` que mantém a ordem de inserção dos elementos, além de usar uma tabela Hash para aobter um bom desempemnho de busca. Ela é semelhante ao `HashSet` mas também mantém uma lista duplamente vinculada que preserva a ordem de inserção. Isso permite que os elementos sejam percorridos na ordem em que foram adicionados. O `LinkedHashSet` é util quando você precisa manter a ordem de inserção dos elementos e também ter um bom desempenho de busca.
 
+
+## Map
+> A interface `Map` é usada para mapear dados na forma de chaves e valores.
+
+> O `Map` do java é o Objeto que mapeia chaves e valores
+
+> Um `Map` não pode conter chaves duplicadas: Cada chave pode mapear no máximo um vaor.
+
+> A plataforma Java possui três implementações gerais de `Map`: `HashMap`, `TreeMap`, `LinkedHashMap`.
+
+> As operações básicas do `Map` são: put (Inserir), get (Obter), containsKey (Verificar se contém uma chave), containsValue (Verificar se contém um valor), size (Obter o tamanho) e isEmpty (verificar se está vazio).
+
+##### HashTable
+> É uma implementação antiga da interface `Map` que é sincronizada e thread-safe, tornando-a adequada para o uso em ambientes concorrentes. Ela não permite chaves ou valores nulos e os elementos não são mantidos em uma ordem específica.
+##### LinkedHashMap
+> É uma implementação da interface `Map` que preserva a ordem de inserção dos elementos. Cada elemento possui referências ao próximo e ao anterior, formando uma lista encadeada. Isso permite que elementos sejam iterados na ordem em que foram inseridos. Além disso, o LinkedHashMap também permite chaves ou valores nulos.
+##### 
+>  É uma implementação da interface `Map` que não mantém uma ordem específica dos elementos. Armazena os elementos internamente utilizando uma função de hash para melhorar a eficiência das operações de pesquisa e acesso. O HashMap também permite chaves ou valores nulos.
+
+
+
+
+
+
+
+
+
+
+
+
