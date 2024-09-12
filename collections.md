@@ -35,11 +35,11 @@
   ## Comparable X Comparator
 
   ##### Comparable
-  *Fornece uma única sequencia de ordenação, ou seja, podemos ordenar a coleção com base em um único elemento, como id, nome e preço.
-  *Afeta a classe original, ou seja, a classe original é modificada.
-  *Fornece o método `compareTo()` para ordenar elementos
-  *Está presente no pacote `java.lang`
-  *podemos ordenar os elemento da lista do tipo `comparable` usando método `Collections.sort(List)`
+  * Fornece uma única sequencia de ordenação, ou seja, podemos ordenar a coleção com base em um único elemento, como id, nome e preço.
+  * Afeta a classe original, ou seja, a classe original é modificada.
+  * Fornece o método `compareTo()` para ordenar elementos
+  * Está presente no pacote `java.lang`
+  * podemos ordenar os elemento da lista do tipo `comparable` usando método `Collections.sort(List)`
 
   #### Comparator
   *Fornece o método `compare()`para ordenar elementos.
@@ -49,7 +49,7 @@
   *  Podemos ordnar os elementos da lista do tipo `comparator` usando o metodo `Colleftions.sort(List, Comparator)`
 
   #### Collections
-  *Classe utilitária do Java para operações com coleções.
+  * Classe utilitária do Java para operações com coleções.
   * Fornece metodos para ordenação, busca, manipulação e sincronização de coleções.
   * O metodo `sort()` é usado para ordenar uma lista em ordem ascendente.
   * O metodo `sort()` em conjunto com `Collections.reverseOrder()` permite ordenar em ordem descendente
@@ -107,7 +107,7 @@
 ##### LinkedHashMap
 > É uma implementação da interface `Map` que preserva a ordem de inserção dos elementos. Cada elemento possui referências ao próximo e ao anterior, formando uma lista encadeada. Isso permite que elementos sejam iterados na ordem em que foram inseridos. Além disso, o LinkedHashMap também permite chaves ou valores nulos.
 ##### 
->  É uma implementação da interface `Map` que não mantém uma ordem específica dos elementos. Armazena os elementos internamente utilizando uma função de hash para melhorar a eficiência das operações de pesquisa e acesso. O HashMap também permite chaves ou valores nulos.
+> É uma implementação da interface `Map` que não mantém uma ordem específica dos elementos. Armazena os elementos internamente utilizando uma função de hash para melhorar a eficiência das operações de pesquisa e acesso. O HashMap também permite chaves ou valores nulos.
 
 
 
