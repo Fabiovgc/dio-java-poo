@@ -42,7 +42,7 @@
   * podemos ordenar os elemento da lista do tipo `comparable` usando método `Collections.sort(List)`
 
   #### Comparator
-  *Fornece o método `compare()`para ordenar elementos.
+  * Fornece o método `compare()`para ordenar elementos.
   * O `comparator` fornece múltiplas sequências de ordenação, ou seja, podemos ordenar a coleção com base em múltiplos elementos, com base emmúltiplos elementos como id, nome, preço etc.
   * O comparator não afeta a classe original,  ou seja, a classe original não é modificada.
   * `comparator está presente no pacote `java.util`
